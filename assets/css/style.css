@@ -1,0 +1,305 @@
+/*!
+ * Template Name/Project Name: XYZ
+ * Developer Name: Mr ABC
+ * Conatct: abc@gmail.com
+ * Visit: https://abc.info
+ */
+ /* common code start */
+ :root{
+    --nav-color:#2C3E50;
+    --banner-color:#1ABC9C;
+    --white-color:#FFFFFF;
+    --nav-color:#2C3E50;
+    --fs-45:45px;
+    --fs-45:42px;
+    --fs-32:32px;
+    --fs-28:28px;
+   
+ }
+ @font-face {
+    font-family:sans-serif;
+    src: url(../fonts/ABeeZee-Italic.otf);
+ }
+ /* common code end */
+ /* header-section start  */
+
+ /* nav start  */
+ nav{
+    background: var(--nav-color);
+    padding: 20px 0px;
+ }
+ .navbar-toggler {
+  padding: 10px 15px;
+  font-size: 13px;
+  line-height: 1;
+  color: white;
+  background-color:var(--banner-color);
+  border:var(--white-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+  text-transform: uppercase;
+}
+.navbar-toggler-icon {
+  width: 1.2em;
+}
+ .sticy{
+  position: fixed;
+  top:0px;
+  width: 100%;
+  padding:10px 0px;
+ }
+ /* #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+  color: #fff;
+  background: #1abc9c;
+} */
+  a:is(:link, :active, :visited).active{
+    color: var(--white-color);
+    background: var(--banner-color);
+  }
+ .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--banner-color);
+}
+ .navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--white-color);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav-link:focus, .nav-link:hover {
+    color: var(--banner-color);
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    color: var(--white-color);
+  }
+ .nav-link {
+    margin-left: 30px;
+    color: var(--white-color);
+}
+ /* nav end */
+ /* header-section end */
+
+ /* banner-secion start */
+ .image{
+    background: var(--banner-color);
+    margin-bottom: 60px;
+    margin-bottom: 60px;
+    margin-top: 103px;
+    padding-top: 72px;
+ }
+
+ .img-item{
+    width: 15rem;
+    margin: 20px 0px 40px 0px;
+ }
+ .image h2{
+    font-size: 64px;
+    font-weight: bold;
+    transform-style: uppercase;
+ }
+ .image p{
+    font-size: 23px;
+ }
+ .divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #fff;
+    border-radius: 1rem;
+  }
+  .fa-solid, .fas {
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0px 10px;
+  }
+ 
+ /* banner-secion end */
+ 
+ /* protfolio headline start */
+ .protfolio{
+   padding:0 0 100px 0;
+ }
+ .divider-custom-headline {
+   width: 100%;
+   max-width: 7rem;
+   height: 0.25rem;
+   background-color: #000;
+   border-radius: 1rem;
+ }
+ .prot-headline h2{
+   font-size: 3rem;
+   font-weight: bold;
+   letter-spacing: 2px;
+   margin-top: 5rem;
+ }
+ .prot-content{
+   position: relative;
+   overflow: hidden;
+   top: -0%;
+   border-radius: 10px;
+ }
+ .prot-overflow{
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   z-index: 1;
+   color: var(--white-color);
+   background-color: var(--banner-color);
+   transition: .5s all;
+   
+ }
+ .prot-overflow i {
+  font-size: 100px;
+  text-align: center;
+  display: block;
+  transform: translateY(80px);
+}
+ 
+ .prot-content:hover .prot-overflow{
+   top: -0;
+   
+ }
+ /* protfolio headline end */
+
+ /* about-section start */
+ .about-section{
+   background-color: var(--banner-color);
+   padding: 50px 0px;
+ }
+ .about-headline h2{
+   font-size: 3rem;
+   line-height: 2.5rem;
+   font-weight: bold;
+   padding: 15px 0 10px 0px;
+   color: var(--white-color);
+ }
+ .divider-costom-icon i{
+   color: var(--white-color);
+ }
+ .divider-costom-about{
+   width: 100%;
+   max-width: 7rem;
+   height: 4px;
+   background-color: var(--white-color);
+ }
+ .lead {
+   font-size: 1.25rem;
+   font-weight: 500;
+   color: var(--white-color);
+   margin: 25px 0px;
+   
+ }
+ .lead h3{
+  font-weight: bold;
+  font-size: 26px;
+}
+
+ .button-border{
+   border: 2px solid var(--white-color);
+   background: var(--banner-color);
+   padding: 15px 20px;
+   margin: 15px 0px 30px 0px;
+ }
+ .btn:first-child:hover, :not(.btn-check) + .btn:hover {
+   color: #000;
+   background-color: var(--white-color);
+   border:2px solid var(--white-color);
+   
+ }
+ /* about-section end */
+
+ /* contact section start */
+ .contact-headline{
+  padding: 100px 0 50px 0;
+ }
+ .contact-headline h2{
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+ }
+ .divider-costom-contact{
+  width: 100%;
+  max-width: 7rem;
+  height: 4px;
+  background-color: #333;
+ }
+ /* form start  */
+ input,textarea{
+  min-width: 50%;
+  min-height: 60px;
+  border: none;
+  border-bottom: 2px solid gray;
+  font-size:32px;
+}
+.form-control {
+  outline: 0px;
+  border-radius: 0px;
+  border: none;
+  border-bottom: .5px solid rgb(252, 183, 183);
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0;
+}
+input, textarea {
+  min-width: 50%;
+  min-height: 60px;
+  font-size: 32px;
+}
+::placeholder{
+  font-size: 1.5rem;
+}
+.form-group .btn-primary{
+  background-color: var(--banner-color);
+}
+
+  .form-group{
+    margin-bottom: 30px;
+  }
+ 
+ /* form end */
+
+ /* contact section end */
+ /* media-section strat */
+ .media-section{
+  background: var(--nav-color);
+ }
+ .fa-brands, .fab {
+  font-weight: 400;
+  border: 3px solid gray;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.socil-me i:hover{
+  background: white;
+  color: black;
+}
+.fb{
+  font-weight: 400;
+  border: 3px solid gray;
+  padding: 15px 18px;
+  border-radius: 50%; 
+}
+.bts{
+  color: var(--banner-color);
+}
+ /* media-section end */
+
+ /* footer start */
+ footer{
+  background-color: #212529;
+ }
+ /* footer end */

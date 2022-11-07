@@ -1,0 +1,120 @@
+@media (min-width: 0px) and (max-width: 575px){
+    /* header start */
+    
+    /* header end */
+    .navbar-brand {
+        font-size: 22px;
+      }
+      .image {
+        margin-top: 90px;
+      }
+     
+      .image h2 {
+        font-size: 44px;
+        padding-left: 15px;
+      }
+      .image p {
+        font-size: 21px;
+        padding-left: 15px;
+        margin-bottom: 90px;
+      }
+      /* protfolio */
+      .prot-headline h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        letter-spacing: 3px;
+        margin-top: 5rem;
+      }
+      .divider-custom-headline {
+        width: 100%;
+        max-width: 6rem;
+        height: 0.25rem;
+        background-color: #000;
+        border-radius: 1rem;
+      }
+      /* about-section */
+      .about-headline h2 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        font-weight: bold;
+        padding: 15px 0 10px 0px;
+        color: var(--white-color);
+      }
+      .divider-costom-about {
+        width: 100%;
+        max-width: 6rem;
+        height: 4px;
+        background-color: var(--white-color);
+      }
+      /* contact-section */
+      .contact-headline h2 {
+        font-size: 2rem;
+      }
+      .divider-costom-contact {
+        max-width: 6rem;
+        
+      }
+      /* footer start  */
+      .fa-brands, .fab {
+        padding: 11px;
+      }
+      .fb {
+        padding: 11px 15px;
+      }
+      .lead {
+        margin: 10px 0px;
+      }
+      .lead p{
+            font-size: 14px;
+      }
+      /* footer end */
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    /* header start */
+    .image h2 {
+        font-size: 50px;
+      }
+      .prot-overflow i {
+        font-size: 90px;
+        transform: translateY(100px);
+      }
+      
+      .about-headline h2{
+        font-size: 2.5rem;
+      }
+    /* header end */
+    .prot-overflow i {
+      font-size: 130px;
+      transform: translateY(106px);
+    }
+    .contact-headline h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      padding-bottom: 10px;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .lead p{
+        font-size: 16px;
+  }
+  .fa-brands, .fab {
+    padding: 11px;
+    margin-bottom: 10px;
+  }
+  .fb {
+    padding: 11px 15px;
+  }
+/* protfolio */
+.prot-overflow i {
+  font-size: 90px;
+  transform: translateY(64px);
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .prot-overflow i {
+    font-size: 90px;
+    transform: translateY(61px);
+  }
+
+}
